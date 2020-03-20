@@ -1,0 +1,35 @@
+{
+  "name": "devtalk",
+  "version": "0.1.0",
+  "description": "a way for devs to talk, share and access github all in one.",
+  "main": "devTalk.js",
+  "scripts": {
+    "test": "mocha test\\test.js",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sovr610/devTalk.git"
+  },
+  "keywords": [
+    "dev",
+    "talk",
+    "electron",
+    "github"
+  ],
+  "author": "Parker Bidigare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sovr610/devTalk/issues"
+  },
+  "homepage": "https://github.com/sovr610/devTalk#readme",
+  "dependencies": {
+    "electron": "^8.1.1",
+    "jquery": "^3.4.1",
+    "net": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
